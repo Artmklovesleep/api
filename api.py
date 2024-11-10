@@ -104,4 +104,4 @@ if __name__ == "__main__":
     #     conn.post_goods(product_item(title="Карбонара", category_id=2, price=1500))
     # )
 
-    uvicorn.run(app, host="127.0.0.1", port=9010)
+    uvicorn.run(app, host="0.0.0.0", port=9010)
